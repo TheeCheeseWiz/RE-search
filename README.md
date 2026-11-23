@@ -47,6 +47,10 @@ Automated extraction of post timestamps, titles, body text, engagement scores, c
 Unsupervised topic extraction identifying 5 core academic discussion themes and tagging every post with its dominant `topic_label`.
 <img width="1280" height="669" alt="assets-03-lda-topic-modeling" src="https://github.com/user-attachments/assets/c0946291-c596-45ea-b97f-974d5ce50d11" />
 
-### 4. Interactive Trend & Community Visualizations
+### 4. Subject & Education-Level Grouping
+Categorizes scraped posts by academic subject and segments education-level discussions with post metadata and links.
+<img width="1280" height="692" alt="assets-04-education-level-filtering" src="https://github.com/user-attachments/assets/c774a298-e704-4bb2-abe8-2a1b370ce3b5" />
+
+### 5. Interactive Trend & Community Visualizations
 Time-series activity tracking (**Recent Activity Trend**) alongside community volume rankings (**Most Active Subreddits**) to highlight where and when academic discussions peak.
 <img width="1280" height="692" alt="assets-05-Interactive-trend-Analytics" src="https://github.com/user-attachments/assets/ad8959b3-5357-4f4e-902f-c8d45fd3f109" />
