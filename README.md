@@ -38,17 +38,21 @@ Manual tracking of student pain points, curriculum feedback, and educational tre
 ## 📸 System Walkthrough
 
 ### 1. Scraper Controls & Live Data Ingestion
-Configurable sidebar parameters for subreddit targeting, post limits, and keyword filtering, paired with real-time database storage confirmation and raw post preview.
-![Scraper Overview](assets/01-scraper-overview.png)
+Configurable sidebar parameters for subreddit targeting, post limits, and keyword filtering, paired with real-time scraping progress.
+<img width="1280" height="692" alt="assets-01-scraper-overview" src="https://github.com/user-attachments/assets/d2211311-4079-42cf-9517-471775866052" />
 
-### 2. LDA Topic Modeling & Post Classification
+### 2. Raw Post Extraction & Database Persistence
+Automated extraction of structured post metadata (timestamps, titles, body text, scores, comment counts, and URLs) with database storage confirmation.
+<img width="1280" height="643" alt="assets-02-raw-post-Extraction" src="https://github.com/user-attachments/assets/00d6ba0d-f390-4d27-a60a-02c4c6a56b9d" />
+
+### 3. LDA Topic Modeling & Post Classification
 Unsupervised topic extraction identifying 5 core discussion themes across scraped threads and assigning a dominant topic label to every post.
-![LDA Topic Modeling](assets/03-lda-topic-modeling.png)
+<img width="1280" height="669" alt="assets-03-lda-topic-modeling" src="https://github.com/user-attachments/assets/c201852d-222f-4d5e-b818-785d307cab64" />
 
-### 3. Education-Level Segmentation
+### 4. Education-Level Segmentation
 Automated filtering separating general educational discussions from specific academic tiers (e.g., Senior High School trends).
-![Education Level Filtering](assets/04-education-level-filtering.png)
+<img width="1280" height="669" alt="assets-04-education-level-filtering" src="https://github.com/user-attachments/assets/b989ddc3-6dd1-40bc-af13-3c3af1edab08" />
 
-### 4. Trend & Keyword Visualizations
+### 5. Interactive Trend & Keyword Visualizations
 Time-series activity tracking alongside top keyword rankings (`grade`, `school`, `college`, `student`, `exam`, `teacher`) to highlight recurring community concerns.
-![Trend Visualizations](assets/05-trend-visualizations.png)
+<img width="1280" height="692" alt="assets-05-Interactive-trend-Analytics" src="https://github.com/user-attachments/assets/1e9184af-6d79-4021-b754-393a5a78ef0f" />
